@@ -1,0 +1,158 @@
+
+header {
+    background-color: #1c1c1c;
+    border-bottom: ridge white 2px;
+    z-index: 1000;
+    padding-bottom: 100px;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'Bungee Inline', cursive;
+    color: red;
+    font-size: 4em;
+    margin-top: -8px;
+    position: absolute;
+    text-align: center;
+}
+h2 {
+    font-size: 27px;
+    left: 5rem;
+    position: absolute;
+    bottom: 2.7rem;
+    font-family: 'Orbitron', sans-serif;
+}
+#killed {
+    position: fixed;
+    margin: 1em 0 0 0 ;
+    font-size: 3rem;
+    left: 36%;
+    color: red;
+    font-family: 'Creepster', cursive;
+    display: none;
+
+}
+h4 {
+    margin: 0;
+    color: #ff6563;
+    top: 3%;
+    left: 1em;
+    position: absolute;
+    font-size: 3rem;
+    font-family: 'Source Code Pro', monospace;
+}
+#scoredood {
+    color: #f9f9ff;
+    font-size: 5.5em;
+    position: absolute;
+    top: 6%;
+    left: 22%;
+    display: none;
+    font-family: 'Play', sans-serif;
+
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+main {
+    width: 100vw;
+    height: 85.5vh;
+    margin-top: -115px;
+    z-index: 100;
+    background: url("mountain_at_night-wallpaper-1680x1050.jpg");
+    background-size: 70%;
+    margin-bottom: 0;
+}
+#golem {
+    position: absolute;
+    background-size: contain;
+}
+
+
+.achtergrondmonster #golem {
+    position: absolute;
+    top: 25%;
+    width: 30%;
+    left: 10%;
+}
+
+.levenbarrood {
+    width: 16rem;
+    background-color: red;
+    position: absolute;
+    height: 2rem;
+    border: solid #adadad 2px;
+    bottom: 10%;
+    left:  17%;
+}
+.levenbargroen {
+    max-width: 100%;
+    width: 100%;
+    background-color: green;
+    position: absolute;
+    height: 2rem;
+
+}
+#levenmonster {
+    font-size: 2em;
+    color: white;
+    position: absolute;
+
+}
+
+.golem{
+    transition: 1ms;
+}
+.golem:active{
+    transform: scale(0.9);
+}
+
+.shop {
+    height: 85.5vh;
+    width: 35%;
+    background-color: rgba(28, 28, 28, 0.79);
+    float: right;
+
+}
+.damagelvl1 {
+    width: 34.5vw;
+    height: 10%;
+    background-color: rgb(0, 0, 78);
+    margin: 15% 0 0 1%;
+    border-bottom: ridge;
+    border-left: ridge;
+    border-top: ridge;
+}
+.damagelvl1 p {
+    font-size: 2rem;
+    text-align: center;
+    margin:1rem 0 0 0.2rem ;
+    position: absolute;
+    font-family: 'Fira Sans', sans-serif;
+    color: #aeaeb2;
+}
+.hc1 {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #1182ab;
+    width: 12%;
+    height: 100%;
+    float: right;
+    border-left: ridge;
+
+}
+.hc1 p {
+    margin: 0;
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Patua One', cursive;
+}
+
+.bought{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
